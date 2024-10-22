@@ -1,0 +1,85 @@
+
+        body {
+            font-family: Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 25px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #005B55;
+            font-size: 32px;
+            
+        }
+
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: calc(100%-50px);
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 150px;
+        }
+
+        .btn-submit {
+            background-color: #006B64;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            max-width: 150px;
+            margin: 0 auto;
+        }
+
+        .btn-submit:hover {
+            background-color: #004D48;
+        }
+
+        .reviews {
+            margin-top: 40px;
+        }
+
+        .review {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #006B64;
+        }
+
+        .review h3 {
+            margin: 0 0 10px 0;
+        }
+
+        .review p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-top: -10px;
+        }

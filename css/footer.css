@@ -1,0 +1,65 @@
+footer {
+    background-color: #006B64;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-container div {
+    margin: 10px;
+}
+
+.footer-container h3 {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-container p, .footer-container ul, .footer-container li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.footer-container li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+}
+form.form_footer{
+    display: flex;
+}
+
+input[type="email"].email_footer {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+footer button[type="submit"] {
+    background-color: #ffffff;
+    color: #006B64;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer button[type="submit"]:hover {
+    background-color: #004d4a;
+    color: #ffffff;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.8em;
+}

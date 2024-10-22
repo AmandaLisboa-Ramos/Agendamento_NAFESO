@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações e Feedbacks</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/feedback.css">
+</head>
+</head>
+<body>
+    <header>
+        <div class="img_slogan">
+            <img src="./img/logoNAFESO.png" alt="logo Naf">
+        </div>
+        <nav>
+            <ul class="menu_links_header ">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./agendamento.html">Agendamentos</a></li>
+                <li><a href="./cadastro.html">Usuário</a></li>
+                <li><a href="./feedback.html">Deixe sua Avaliação</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+<div class="container">
+    <h2>Avaliações e Feedbacks</h2>
+
+    <form class="feedback-form" id="feedbackForm">
+        <input type="text" id="name" placeholder="Seu nome" required>
+        <input type="email" id="email" placeholder="Seu email" required>
+        <textarea id="feedback" placeholder="Escreva seu feedback aqui..." required></textarea>
+        <button type="submit" class="btn-submit">Enviar Feedback</button>
+        <p class="error" id="errorMsg"></p>
+    </form>
+
+    <div class="reviews" id="reviews">
+        <div class="review">
+            <h3>Maria Oliveira</h3>
+            <p>"Excelente sistema, muito fácil de usar e super prático. Recomendo para todos!"</p>
+        </div>
+        <div class="review">
+            <h3>João Souza</h3>
+            <p>"Gostei bastante da experiência, mas acho que algumas funcionalidades poderiam ser melhoradas."</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="contact-info">
+            <h3>Contato</h3>
+            <p>Email: contato@empresa.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Endereço: Rua Exemplo, 123 - Cidade - Estado</p>
+        </div>
+        <div class="links">
+            <h3>Links Úteis</h3>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./feedback.html">Feedback</a></li>
+                <li><a href="./agendamento.html">Agendamentos</a></li>
+            </ul>
+        </div>
+        <div class="newsletter">
+            <h3>Inscreva-se na nossa Newsletter</h3>
+            <form class="form_footer" action="#">
+                <input class="email_footer" type="email" placeholder="Seu e-mail">
+                <button type="submit">Inscrever</button>
+                </form>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const feedback = document.getElementById('feedback').value;
+        const errorMsg = document.getElementById('errorMsg');
+        errorMsg.textContent = '';
+
+        if (!name || !email || !feedback) {
+            errorMsg.textContent = 'Por favor, preencha todos os campos!';
+            return;
+        }
+        const newReview = document.createElement('div');
+        newReview.classList.add('review');
+        newReview.innerHTML = `<h3>${name}</h3><p>"${feedback}"</p>`;
+        document.getElementById('reviews').appendChild(newReview);
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('feedback').value = '';
+
+        alert('Feedback enviado com sucesso!');
+    });
+</script>
+
+</body>
+</html>

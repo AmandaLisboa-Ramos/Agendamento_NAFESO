@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <div class="img_slogan">
+            <img src="./img/logoNAFESO.png" alt="logo Naf">
+        </div>
+        <nav>
+            <ul class="menu_links_header">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Cadastro</h2>
+            <form class="form_container">
+                <input type="text" name="name" placeholder="Nome Completo" required>
+                <input type="date" name="date_of_birth" placeholder="Data de Nascimento" required>
+                <input type="text" name="city" placeholder="Cidade" required>
+                <input type="text" name="state" placeholder="Estado" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Senha"required>
+                <input type="password" name="comfirm_password" placeholder="Confirme a Senha" required>
+                <button type="submit"> Cadastrar</button>
+            </form>
+            <a href="./index.html">Já tem uma conta? Faça Login</a>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <h3>Contato</h3>
+                <p>Email: contato@empresa.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Endereço: Rua Exemplo, 123 - Cidade - Estado</p>
+            </div>
+            <div class="newsletter">
+                <h3>Inscreva-se na nossa Newsletter</h3>
+                <form class="form_footer" action="#">
+                <input class="email_footer" type="email" placeholder="Seu e-mail">
+                <button type="submit">Inscrever</button>
+                </form>
+            </div>
+        </div>
+        <p>© 2024 MVP AgendaFácil NAF. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

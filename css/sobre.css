@@ -1,0 +1,49 @@
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.container h1{
+    color: #006B64;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+.container p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.video_naf_sobre {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 32px;
+}
+
+.video_unifeso {
+    display: flex;
+    align-items: center;
+}
+video{
+    border-radius: 10px;
+}
+.conteudo_unifeso{
+    width: auto;
+    font-size: 18px;
+    margin-left: 16px;
+    background-color: #009d92;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+}
