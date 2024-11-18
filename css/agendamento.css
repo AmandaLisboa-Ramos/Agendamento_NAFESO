@@ -23,6 +23,7 @@ h2{
 }
 #appointments{
     margin-top: 24px;
+    padding: 0 0 24px;
 }
 .grid-list {
     display: flex;
@@ -69,7 +70,7 @@ button.cancel {
 #booked-slots.grid-list li {
     width: 200px;
     height: 150px;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 
 #booked-slots.grid-list span {
