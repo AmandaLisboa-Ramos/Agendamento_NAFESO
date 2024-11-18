@@ -3,38 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recuperar Senha</title>
-    <link rel="stylesheet" href="./css/recuperacaoSenha.css">
+    <title>AgendaFacilNFA</title>
+    <link rel="stylesheet" href="./css/style.css"> 
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
-
 <body>
+    
     <header>
         <div class="img_slogan">
             <img src="./img/logoNAFESO.png" alt="logo Naf">
         </div>
         <nav>
-            <ul class="menu_links_header ">
+            <ul class="menu_links_header">
                 <li><a href="./index.html">Início</a></li>
-                <li><a href="./cadastro.html">Usuário</a></li>
                 <li><a href="./sobre.html">Sobre</a></li>
             </ul>
         </nav>
     </header>
-<main>
-<div class="container">
-    <h2>Recuperar Senha</h2>
-    <p>Por favor, insira seu endereço de e-mail para redefinir sua senha.</p>
-    <form id="recoverForm">
-        <input type="email" id="email" placeholder="Seu e-mail">
-        <button type="submit">Enviar link de recuperação</button>
-    </form>
-    <div id="message" class="message"> </div>
-</div>
 
-</main>
-<footer>
+    <main>
+        <div class="container">
+            <h1>Bem-vindo ao Painel do Colaborador NAF!</h1>
+            <p class="subtitulo_h1">Faça login para acessar as ferramentas de gerenciamento e manutenção do sistema.</p>
+        </div>
+        
+        <div class="container">
+           <h2>Login</h2>
+           <form>
+               <input type="number" name="CPF" placeholder="CPF" required>
+               <input type="password" name="password" placeholder="Senha" required>
+               <a class="button_submit" href="./agendamento.html">Entrar</a>
+           </form>
+           <a class="button_recuperacaoSenha" href="./recuperacaoSenha.html">Esqueceu sua senha?</a>
+       </div>
+    </main>
+   <footer>
     <div class="footer-container">
         <div class="contact-info">
             <h3>Contato</h3>
@@ -52,6 +56,7 @@
     </div>
     <p>© 2024 MVP AgendaFácil NAF. Todos os direitos reservados.</p>
 </footer>
-<script src="./js/recuperacaoSenha.js"></script>
 </body>
+
+
 </html>
