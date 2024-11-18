@@ -31,9 +31,8 @@ Desenvolver uma solução digital que permita à população agendar atendimento
 ## Exigências do Sistema
 
 1. **Agendamento de Atendimento:** Usuários devem poder visualizar horários disponíveis e agendar atendimentos.
-2. **Perfil do Usuário:** Estudantes e professores terão perfis para armazenar informações relevantes.
-3. **Notificações por E-mail:** Sistema enviará e-mails de confirmação e lembrete dos agendamentos.
-4. **Gestão de Disponibilidade:** Administradores do NAF devem poder configurar horários de atendimento.
+2. **Perfil do Usuário:** Estudantes e professores terão perfis de colaborador.
+3. **Notificações por E-mail:** Sistema enviará e-mails de confirmação.
 5. **Feedback e Avaliação:** Usuários poderão avaliar os atendimentos prestados.
 6. **Segurança de Dados:** Garantia de segurança e privacidade dos dados dos usuários.
 7. **Desempenho Rápido:** O sistema deve ser responsivo para acomodar um grande número de usuários.
@@ -51,4 +50,23 @@ Desenvolver uma solução digital que permita à população agendar atendimento
    ```bash
    git clone https://github.com/AmandaLisboa-Ramos/Agendamento_NAFESO.git
 
+2. Abra o arquivo index.html no navegador para acessar a página de login.
+3. Clique no link para ir para a página de cadastro.
+4. Preencha os campos e conclua o cadastro para ser redirecionado ao login.
 
+📂 Projeto
+📂 AGENDAMENTONAF 
+├── 📂 css 
+│ └── style.css # Estilos principais do projeto 
+├── 📂 img 
+│ └── (imagens do projeto) # Recursos visuais 
+├── 📂 js 
+│ └── script.js  # Lógica JavaScript 
+├── agendamento.html  # Página de agendamentos 
+├── cadastro.html  # Página de cadastro de usuários 
+├── feedback.html  # Página de feedbacks 
+├── index.html  # Página inicial de login 
+├── loginColaborador.html  # Login para colaboradores
+├── recuperacaoSenha.html  # Recuperação de senha 
+├── sobre.html  # Página "Sobre" do NAF 
+└── README.md  # Documentação do projeto
