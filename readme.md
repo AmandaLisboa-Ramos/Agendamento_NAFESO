@@ -17,6 +17,8 @@ Apresentamos o **Agendamento NAFESO**, um projeto desenvolvido pelo Centro Unive
 - [Público Alvo](#público-alvo)
 - [Objetivos](#objetivos)
 - [Benefícios](#benefícios)
+- [Protótipos](#protótipos)
+- [Lista de Requisitos](#lista-de-requisitos)
 - [Instalação e uso](#instalação-e-uso)
 - [Melhorias Futuras](#Melhorias-futuras)
 
@@ -44,15 +46,21 @@ Este MVP foi projetado para atender às necessidades imediatas de agendamento e 
 - **População Local:** Cidadãos que buscam assistência fiscal e contábil, podendo acessar o site, visualizar horários disponíveis e agendar atendimentos.
 - **Administração do NAF:** Responsável por gerenciar o sistema de agendamentos e garantir a distribuição eficaz dos atendimentos entre a equipe.
 
+## Público Alvo
+O Agendamento NAFESO é uma solução voltada para dois públicos principais:
+
+- **Colaboradores do NAF (Centro Universitário Serra dos Órgãos - Unifeso):** Equipe responsável pelos atendimentos no NAF, que inclui tanto estudantes como membros da administração. Estes colaboradores utilizam a plataforma para gerenciar os agendamentos, otimizar os atendimentos e garantir que as necessidades da população sejam atendidas de forma eficiente.
+
+- **População Local:** Cidadãos que buscam assistência fiscal e contábil, principalmente durante a temporada de declaração de Imposto de Renda. Eles acessam a plataforma para visualizar horários disponíveis, agendar atendimentos e fornecer feedback sobre os serviços prestados.
+
 ## Exigências do Sistema
 
 1. **Agendamento de Atendimento:** Usuários devem poder visualizar horários disponíveis e agendar atendimentos.
 2. **Perfil do Usuário:** Estudantes e professores terão perfis de colaborador.
-3. **Notificações por E-mail:** Sistema enviará e-mails de confirmação.
-5. **Feedback e Avaliação:** Usuários poderão avaliar os atendimentos prestados.
-6. **Segurança de Dados:** Garantia de segurança e privacidade dos dados dos usuários.
-7. **Desempenho Rápido:** O sistema deve ser responsivo para acomodar um grande número de usuários.
-8. **Interface Intuitiva:** Interface amigável e de fácil uso.
+3. **Feedback e Avaliação:** Usuários poderão avaliar os atendimentos prestados.
+4. **Segurança de Dados:** Garantia de segurança e privacidade dos dados dos usuários.
+5. **Desempenho Rápido:** O sistema deve ser responsivo para acomodar um grande número de usuários.
+6. **Interface Intuitiva:** Interface amigável e de fácil uso.
 
 ## Funcionalidades
 - **Cadastro e Login:** Registro e autenticação de usuários.
@@ -65,7 +73,7 @@ Este MVP foi projetado para atender às necessidades imediatas de agendamento e 
 ## Dores do público alvo
 - **Demora para agendar:** Muitas pessoas têm dificuldade em encontrar horários disponíveis ou precisam ligar/repetir contatos várias vezes.
 - **Sem canal direto para feedback:** Os usuários podem querer sugerir melhorias ou reportar problemas, mas não têm um meio simples e acessível para isso.
-**Cancelamento complicado:** Usuários precisam de agilidade para remarcar ou cancelar agendamentos sem frustração.
+- **Cancelamento complicado:** Usuários precisam de agilidade para remarcar ou cancelar agendamentos sem frustração.
 
 ## Objetivos
 - **Facilitar o acesso aos serviços do NAF:** O principal objetivo do Agendamento NAFESO é proporcionar uma plataforma simples e eficiente para agendar atendimentos no NAF, especialmente durante a temporada de declaração de Imposto de Renda.
@@ -76,6 +84,17 @@ Este MVP foi projetado para atender às necessidades imediatas de agendamento e 
 - **Agendamento rápido e eficiente:** Os usuários podem visualizar os horários disponíveis e agendar atendimentos diretamente pela plataforma, sem a necessidade de ligações ou repetições, o que economiza tempo e reduz frustrações.
 - **Feedback e melhorias contínuas:** O recurso de feedback permite que os usuários forneçam suas opiniões sobre o atendimento, o que contribui para a melhoria constante do serviço.
 - **Acesso remoto e conveniente:** Os usuários podem acessar a plataforma de qualquer lugar e a qualquer momento, o que oferece conveniência e flexibilidade, especialmente em períodos de alta demanda.
+
+## Protótipos
+
+Para entender melhor a interface do sistema, fizemos algumas prototipagens. Abaixo estão as imagens das prototipagens em JPEG.
+
+![Prototipagem 1](./img/PrototipoFigma/Figma%20Login.jpg)
+![Prototipagem 2](./img/PrototipoFigma/Figma%20Agendamento.jpg)
+![Prototipagem 3](./img/PrototipoFigma/Figma%20Feedback.jpg)
+
+## Lista de Requisitos
+
 
 ## Tecnologias Utilizadas
 
@@ -94,6 +113,6 @@ Este MVP foi projetado para atender às necessidades imediatas de agendamento e 
 4. Preencha os campos e conclua o cadastro para ser redirecionado ao login.
 
 ## Melhorias Futuras
-Integração com um banco de dados para salvar usuários e agendamentos.
-Painel de controle para colaboradores visualizarem agendamentos.
-Feedback visual mais interativo para validações.
+- Integração com um banco de dados para salvar usuários e agendamentos.
+- Painel de controle para colaboradores visualizarem agendamentos.
+- Feedback visual mais interativo para validações.

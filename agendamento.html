@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendamentos</title>
+    <link rel="icon" href="./img/logoNAFESO.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/agendamento.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -25,27 +26,37 @@
             </ul>
         </nav>
     </header>
-<main>
-    <h1>Agendamentos NAF</h1>
-    <div id="schedule">
-        <h2>Horários Disponíveis</h2>
-        <ul id="available-slots" class="grid-list"></ul>
-    </div>
-    <div id="appointments">
-        <h2>Seus Agendamentos</h2>
-        <ul id="booked-slots" class="grid-list"></ul>
-    </div>
-    <div id="modal" class="hidden">
-        <div class="modal-content">
-            <h3>Por que está solicitando este agendamento?</h3>
-            <textarea id="reason" placeholder="Digite o motivo aqui..."></textarea>
-            <button id="save-reason">Salvar</button>
-            <button id="close-modal">Cancelar</button>
-        </div>
-    </div>
-</main>
 
+    <main>
+        <h1>Agendamentos NAF</h1>
+        <div class="seletor-agendamentos" id="schedule">
+            <h2 class="h2-selecione">Selecione o Dia</h2>
+            <select id="day-selector">
+                <option value="1">Segunda-feira</option>
+                <option value="2">Terça-feira</option>
+                <option value="3">Quarta-feira</option>
+                <option value="4">Quinta-feira</option>
+                <option value="5">Sexta-feira</option>
+            </select>
+            
+            <h2>Horários Disponíveis</h2>
+            <ul id="available-slots" class="grid-list"></ul>
+        </div>
+        <div id="appointments">
+            <h2>Seus Agendamentos</h2>
+            <ul id="booked-slots" class="grid-list"></ul>
+        </div>
+        <div id="modal" class="hidden">
+            <div class="modal-content">
+                <h3>Por que está solicitando este agendamento?</h3>
+                <textarea id="reason" placeholder="Digite o motivo aqui..."></textarea>
+                <button id="save-reason">Salvar</button>
+                <button id="close-modal">Cancelar</button>
+            </div>
+        </div>
+    </main>
 <footer>
+
     <div class="footer-container">
         <div class="contact-info">
             <h3>Contato</h3>

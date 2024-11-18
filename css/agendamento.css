@@ -1,8 +1,10 @@
 main {
     font-family: Arial, sans-serif;
     margin: 20px;
-    height: calc(100vh - 345px);
-    
+    height: 100%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -17,6 +19,7 @@ h2{
     color: #02524c;
     margin-bottom: 16px;
     text-align: center;
+    padding: 8px;
 }
 #appointments{
     margin-top: 24px;
@@ -24,7 +27,7 @@ h2{
 .grid-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 20px;
     padding: 0;
     list-style-type: none;
     justify-content: center;
@@ -32,14 +35,14 @@ h2{
 
 .grid-list li {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 16px;
-    width: 150px;
+    width: 180px;
     text-align: center;
     background-color: #f9f9f9;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-    height: 100px;
+    height: 120px;
 }
 
 .grid-list li:hover {
@@ -70,7 +73,6 @@ button.cancel {
 }
 
 #booked-slots.grid-list span {
-    
     display: -webkit-box; 
     -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
@@ -79,6 +81,35 @@ button.cancel {
     word-wrap: break-word; 
     white-space: normal;
     max-height: 150px;
+}
+.seletor-agendamentos {
+    margin: 20px auto;
+    padding: 16px;
+    text-align: center;
+    
+}
+.h2-selecione {
+    font-size: 24px;
+    color: #02524c;
+    margin-bottom: 12px;
+    text-align: center;
+}
+#day-selector {
+    width: 20%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #02524c;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+#day-selector:hover,
+#day-selector:focus {
+    border-color: #006B64;
+    box-shadow: 0 0 8px rgba(0, 107, 100, 0.3);
 }
 #modal {
     position: fixed;
@@ -112,4 +143,9 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px;
+}
+@media (max-width:1024px) {
+    #day-selector {
+        width: 50%;
+    }
 }
