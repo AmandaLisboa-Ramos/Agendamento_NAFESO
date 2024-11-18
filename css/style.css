@@ -27,8 +27,6 @@ h1 {
     color: #565656;
     font-size: 21px;
 }
-
-
 h2 {
     color: #006B64;
     font-size: 2em;
@@ -65,15 +63,39 @@ form {
     align-items: center;
     margin-bottom: 20px;
 }
-input[type="text"], input[type="password"], input[type="email"] {
+input[type="text"], input[type="number"], input[type="password"], input[type="email"] {
     padding: 10px;
     width: 300px;
     border: 2px solid #006B64;
     border-radius: 8px;
 }
-input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="email"]:focus {
     outline: none;
     border-color: #004d4a;
+}
+.button_colaborador {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #006B64;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button_colaborador:hover {
+    background-color: #004F48;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .button_submit{
     background-color: #006B64;
@@ -90,7 +112,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
     color: #006B64;
 }
 .button_cadastrar,
-.buton_recuperacaoSenha {
+.button_recuperacaoSenha {
     color: #006B64;
     text-decoration: none;
     padding: 10px 20px;
@@ -99,11 +121,12 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
     cursor: pointer;
 }
 .button_cadastrar:hover,
-.buton_recuperacaoSenha:hover {
+.button_recuperacaoSenha:hover {
     text-decoration: underline;
 }
 @media (max-width:1024px) {
     main{
         flex-direction: column;
+        height: 100%;
     }
 }

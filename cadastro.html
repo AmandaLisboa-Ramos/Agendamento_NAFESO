@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/cadastro.css">
     <title>Cadastro</title>
+    <link rel="icon" href="./img/logoNAFESO.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -22,9 +23,10 @@
     </header>
     <div class="container">
         <h2>Cadastro</h2>
-            <form class="form_container">
+            <form class="form_container" id="formCadastro">
                 <input type="text" name="name" placeholder="Nome Completo" required>
                 <input type="date" name="date_of_birth" placeholder="Data de Nascimento" required>
+                <input type="number" name="cpf" placeholder="CPF" required>
                 <input type="text" name="city" placeholder="Cidade" required>
                 <input type="text" name="state" placeholder="Estado" required>
                 <input type="email" name="email" placeholder="Email" required>
@@ -52,5 +54,6 @@
         </div>
         <p>© 2024 MVP AgendaFácil NAF. Todos os direitos reservados.</p>
     </footer>
+    <script src="/js/cadastro.js"></script>
 </body>
 </html>
