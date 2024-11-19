@@ -95,6 +95,9 @@ Para entender melhor a interface do sistema, fizemos algumas prototipagens. Abai
 
 ## Lista de Requisitos
 
+Os requisitos funcionais e não funcionais deste projeto estão organizados em uma planilha para facilitar a visualização e o gerenciamento.
+
+🔗 [Clique aqui para acessar a planilha de requisitos](https://1drv.ms/x/c/57e91941cd9f4c4d/ER5rfYJ-qeBMkZbAIXktG5wBGyLpKWfJWeINBXV--fLdiA?e=8gGG2m&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0)
 
 ## Tecnologias Utilizadas
 
