@@ -89,8 +89,7 @@ O Agendamento NAFESO é uma solução voltada para dois públicos principais:
 
 Para entender melhor a interface do sistema, fizemos algumas prototipagens. Abaixo estão as imagens das prototipagens em JPEG.
 Foi utilizado o Figma para realizar os protótipos:
-![Link do Protótipo no Figma](https://www.figma.com/design/yKB8B5gKS5mU48ZLAtF176/MVP-NAFESO?node-id=0-1&t=cQN30EkffjzcaN11-1)
-
+🔗 [Link do Protótipo no Figma](https://www.figma.com/design/yKB8B5gKS5mU48ZLAtF176/MVP-NAFESO?node-id=0-1&t=cQN30EkffjzcaN11-1)
 ![Prototipagem 1](./img/PrototipoFigma/Figma%20Login.jpg)
 ![Prototipagem 2](./img/PrototipoFigma/Figma%20Agendamento.jpg)
 ![Prototipagem 3](./img/PrototipoFigma/Figma%20Feedback.jpg)
