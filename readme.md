@@ -93,12 +93,14 @@ Foi utilizado o Figma para realizar os protótipos:
 ![Prototipagem 1](./img/PrototipoFigma/Figma%20Login.jpg)
 ![Prototipagem 2](./img/PrototipoFigma/Figma%20Agendamento.jpg)
 ![Prototipagem 3](./img/PrototipoFigma/Figma%20Feedback.jpg)
+![Prototipagem 4](./img/PrototipoFigma/Figma%20Cadastro.jpg)
 
 ## Lista de Requisitos
 
 Os requisitos funcionais e não funcionais deste projeto estão organizados em uma planilha para facilitar a visualização e o gerenciamento.
 
 🔗 [Clique aqui para acessar a planilha de requisitos](https://1drv.ms/x/c/57e91941cd9f4c4d/ER5rfYJ-qeBMkZbAIXktG5wBGyLpKWfJWeINBXV--fLdiA?e=8gGG2m&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0)
+![Baixar Planilha](./img/Planilha%20de%20Requisitos.pdf)
 
 ## Tecnologias Utilizadas
 
