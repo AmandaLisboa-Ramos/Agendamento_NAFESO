@@ -19,6 +19,7 @@ Apresentamos o **Agendamento NAFESO**, um projeto desenvolvido pelo Centro Unive
 - [Benefícios](#benefícios)
 - [Protótipos](#protótipos)
 - [Lista de Requisitos](#lista-de-requisitos)
+- [Slide de Apresentação](#slide-de-apresentação)
 - [Instalação e uso](#instalação-e-uso)
 - [Melhorias Futuras](#Melhorias-futuras)
 
@@ -101,6 +102,11 @@ Os requisitos funcionais e não funcionais deste projeto estão organizados em u
 
 🔗 [Clique aqui para acessar a planilha de requisitos](https://1drv.ms/x/c/57e91941cd9f4c4d/ER5rfYJ-qeBMkZbAIXktG5wBGyLpKWfJWeINBXV--fLdiA?e=8gGG2m&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0)
 - [Baixar Planilha](./img/Planilha%20de%20Requisitos.pdf)
+
+## Slide de Apresentação
+Você pode visualizar os slides de apresentação do MVP no link abaixo:
+
+[Slides de Apresentação](https://www.canva.com/design/DAGXtLTsC7k/txwI1K0oxourXjUhXYE9LA/edit?utm_content=DAGXtLTsC7k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Tecnologias Utilizadas
 
